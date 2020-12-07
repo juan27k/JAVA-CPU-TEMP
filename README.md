@@ -12,5 +12,5 @@ El cliente de conexion arduino recibe datos por el puerto serie COM9 y los retra
 EL codigo esta diseñado en lenguaje c y se encuentra en la carpeta ARDUINO_TEMP
 la placa que se utilizo fue la arduino uno.
 # Imagenes display Arduino:
-![lcd_arduino1](lcd_arduino1.JPG)
-![lcd_arduino2](lcd_arduino2.JPG)
+![lcd_arduino1](lcd_arduino1.jpeg)
+![lcd_arduino2](lcd_arduino2.jpeg)
