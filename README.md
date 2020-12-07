@@ -6,4 +6,4 @@ EL progrma esta hecho con la version de java jdk1.8.0_241
 # Fuentes de datos disponibles:
 https://github.com/profesorfalken/jSensors
 # Imagenes:
- ![Screenshot](java_fx.jpg)
+![java_fx](java_fx.jpeg)
