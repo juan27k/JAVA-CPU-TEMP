@@ -11,6 +11,8 @@ https://github.com/profesorfalken/jSensors
 El cliente de conexion arduino recibe datos por el puerto serie COM9 y los retransmite al display de crystal liquido.
 EL codigo esta diseñado en lenguaje c y se encuentra en la carpeta ARDUINO_TEMP
 la placa que se utilizo fue la arduino uno.
+# Imagenes placa Arduino a Utilizar:
+![uno](uno.JPG)
 # Imagenes display Arduino:
 ![lcd_arduino1](lcd_arduino1.jpeg)
 ![lcd_arduino2](lcd_arduino2.jpeg)
