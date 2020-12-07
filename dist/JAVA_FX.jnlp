@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JAVA_FX.jnlp">
+  <information>
+    <title>JAVA_FX</title>
+    <vendor>JX-29102018</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JAVA_FX.jar" size="57127" download="eager" />
+    <jar href="lib\PanamaHitek_Arduino-3.0.3-javadoc.jar" size="186191" download="eager" />
+    <jar href="lib\PanamaHitek_Arduino-3.0.3.jar" size="201133" download="eager" />
+    <jar href="lib\fx_table_adapter.jar" size="97436" download="eager" />
+    <jar href="lib\jPowerShell-3.0.4.jar" size="19534" download="eager" />
+    <jar href="lib\jSensors-2.2.1.jar" size="222080" download="eager" />
+    <jar href="lib\jna-5.2.0.jar" size="1488769" download="eager" />
+    <jar href="lib\slf4j-api-1.7.25.jar" size="41203" download="eager" />
+    <jar href="lib\slf4j-simple-1.7.25.jar" size="15257" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JAVA_FX" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="application.Main"  name="JAVA_FX" />
+  <update check="always"/>
+</jnlp>

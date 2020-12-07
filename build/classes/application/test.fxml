@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="551.0" prefWidth="538.0" style="-fx-background-color: WHITE;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+    <center>
+        <TextArea fx:id="console" prefHeight="401.0" prefWidth="361.0" style="-fx-background-color: BLACK;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="Courier New Bold" size="10.0" />
+         </font></TextArea>
+    </center>
+   <right>
+      <Pane prefHeight="401.0" prefWidth="90.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="label2" alignment="CENTER" layoutX="3.0" layoutY="113.0" prefHeight="84.0" prefWidth="84.0" />
+            <Label alignment="CENTER" blendMode="GREEN" contentDisplay="CENTER" layoutX="8.0" layoutY="76.0" prefHeight="27.0" prefWidth="80.0" text="GPU" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" underline="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </right>
+   <left>
+      <Pane prefHeight="401.0" prefWidth="90.0" style="-fx-background-color: WHITE;" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="label" alignment="CENTER" layoutX="2.0" layoutY="107.0" prefHeight="84.0" prefWidth="84.0" />
+            <Label fx:id="label3" alignment="CENTER" blendMode="HARD_LIGHT" contentDisplay="CENTER" layoutX="7.0" layoutY="72.0" prefHeight="27.0" prefWidth="71.0" text="CPU" textAlignment="CENTER" underline="true">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+         </children>
+      </Pane>
+   </left>
+   <bottom>
+        <Button fx:id="b1" blendMode="DIFFERENCE" layoutX="143.0" layoutY="7.0" onAction="#button" style="-fx-background-color: WHITE;" text="INICIAR">
+            <BorderPane.alignment>CENTER</BorderPane.alignment>
+            <BorderPane.margin>
+            <Insets bottom="5" left="5" right="5" top="5" />
+         </BorderPane.margin>
+         <tooltip>
+            <Tooltip text="Empty Tooltip" />
+         </tooltip>
+         <tooltip>
+            <Tooltip text="Empty Tooltip" />
+         </tooltip>
+         <effect>
+            <DropShadow />
+         </effect>
+         <tooltip>
+            <Tooltip text="Empty Tooltip" />
+         </tooltip>
+        </Button>
+   </bottom>
+   <top>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="25.0" prefWidth="533.0" text="MONITOR DE TEMPERATURA PARA PC" textAlignment="CENTER" underline="true" BorderPane.alignment="CENTER">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>
