@@ -7,3 +7,7 @@ EL progrma esta hecho con la version de java jdk1.8.0_241 para Windows all 64bit
 https://github.com/profesorfalken/jSensors
 # Imagenes:
 ![java_fx](java_fx.JPG)
+# ARDUINO CPU TEMPERATURA DISPLAY
+El cliente de conexion arduino recibe datos por el puerto serie COM9 y los retransmite al display de crystal liquido.
+EL codigo esta diseñado en lenguaje c y se encuentra en la carpeta ARDUINO_TEMP
+la placa que se utilizo fue la arduino uno.
