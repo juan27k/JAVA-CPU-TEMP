@@ -14,3 +14,6 @@ la placa que se utilizo fue la arduino uno.
 # Imagenes display Arduino:
 ![lcd_arduino1](lcd_arduino1.jpeg)
 ![lcd_arduino2](lcd_arduino2.jpeg)
+# JAVA TEMPERATURA POR CONSOLA
+Ejecutar el ejecutable de la carpeta CONSOLE
+# Imagenes consola:
