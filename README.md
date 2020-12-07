@@ -17,3 +17,4 @@ la placa que se utilizo fue la arduino uno.
 # JAVA TEMPERATURA POR CONSOLA
 Ejecutar el ejecutable de la carpeta CONSOLE
 # Imagenes consola:
+![console](console.JPG)
